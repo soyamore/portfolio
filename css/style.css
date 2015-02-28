@@ -1,0 +1,267 @@
+/* global css */
+
+body{
+	background:url("../img/background.jpg");
+	background-repeat:none;
+	background-size:cover;
+	background-attachment:fixed;
+	color: #fff;
+}
+body, h1, h2, h3, h4, h5, h6, p, div, span, a{
+	margin:0px;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+	text-decoration:none;
+}
+/*-------------------------------------------------------------*/
+.part-one{
+	width:100%;
+	text-align:center;
+	/*background-color:#5C98B9;*/
+	padding:230px 5px;
+}
+.part-one h1{
+	text-shadow: 0px 0px 20px #000;
+	margin-bottom:45px;
+}
+.part-one p{
+	margin-bottom:25px;
+	font-size:20px;
+}
+.aboutme{
+	background: none repeat scroll 0% 0% transparent;
+	border: 2px solid #FFF;
+	padding: 5px 20px;
+	color:#fff;
+	margin:30px 0;
+	font-size:25px;
+	text-decoration:none;
+}
+.aboutme:hover,.aboutme:active, .aboutme:visited{
+	color:#fff;
+	text-decoration:none;
+}
+h1{
+	font-size:90px;
+	margin-bottom:15px;
+}
+h2{
+	font-size:35px;
+}
+.all{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0px;
+	background-color: rgba(0,0,0,0.7);
+	display:none;
+}
+.showme{
+	background-color: #FFF;
+	color: #5C98B9;
+	padding: 5px 15px 40px;
+	width: 400px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 44px #000;
+	position: relative;
+	top: 120px;
+}
+.close{
+	width:100%;
+	text-align:right;
+	margin-bottom:20px;
+}
+#close{
+	padding: 5px;
+	color: #00275A;
+	text-decoration: none;
+	margin-bottom: 5px;
+	text-align: right;
+	text-shadow: 0px 0px 9px #000;
+}
+#close:hover,#close:active{
+	color:#5C98B9;
+}
+/*
+*
+*	My Skills style
+*
+*/
+.part-two{
+	width:100%;
+	text-align:center;
+	background-color:#fff;
+	color:#5C98B9;
+	padding:60px 5px;
+}
+.part-two h1{
+	margin-bottom:120px;
+}
+.skill h2{
+	width:150px;
+	height:150px;
+	border:5px solid #5C98B9;
+	border-radius:50%;
+	padding:5px;
+	line-height: 130px;
+	font-weight:bold;
+	margin:0 auto;
+}
+.skill p{
+	margin-top:5px;
+	font-size:20px;
+}
+
+/*
+*
+*	My portfolio style
+*
+*/
+.part-tree{
+	width:100%;
+	text-align:center;
+	background-color:#5C98B9;
+	padding:100px 5px;
+}
+/* Tiny Carousel Modified By Anass Boutakaoua */
+#slider1 {
+    height: 1%;
+    margin: 30px 0 0;
+    overflow: hidden;
+    position: relative;
+    padding: 0 50px 10px;
+}
+
+#slider1 .viewport {
+    height: 254px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider1 .buttons {
+    border-radius: 35px;
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+#slider1 .next {
+    right: 0;
+    left: auto;
+    top: 80px;
+}
+
+#slider1 .buttons:hover {
+    color: #ACCEE1;
+	text-shadow:0px 0px 5px #b5b5b5;
+}
+
+#slider1 .disable {
+    visibility: hidden;
+}
+
+#slider1 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 254px;
+    left: 0;
+    top: 0;
+}
+
+#slider1 .overview li {
+    float: left;
+    margin: 0 20px 0 0;
+    height: 200px;
+    border: 1px solid #ACCEE1;
+    width: 250px;
+ }
+ #slider1 .overview li a:hover img{
+    box-shadow:0px 0px 5px #b5b5b5;
+ }
+#slider1 img{
+	width:100%;
+	height:100%;
+}
+/**
+*
+* footer style
+*
+**/
+.part-four{
+	width:100%;
+	background-color:#3C3C3C;
+	color:#5C98B9;
+	padding:60px 5px;
+	border-top: 1px solid rgba(255, 255, 255, 0.55);
+	text-align:left;
+}
+
+.border{
+	border-bottom:3px solid #fff;
+	margin-bottom:10px;
+	padding-bottom:2px;
+	width:20%;
+}
+.about{
+	padding:5px;
+	margin-left:8px;
+}
+
+
+.title{
+	font-size:32px;
+	color:#fff;
+	margin-bottom:2px;
+	text-shadow:0px 0px 0px;
+}
+.part-four img{
+	height:150px;
+	width:150px;
+	border: 2px solid #5C98B9;
+	padding:5px;
+	border-radius:50%;
+	background-color:#fff;
+}
+.part-four p{
+	color:#b5b5b5;
+	text-shadow: 0px 0px 1px #fff;
+}
+ul{
+	list-style:none;
+}
+ul li{
+	display:inline;
+}
+.social img{
+	border:none;
+	padding:0;
+	border-radius:0;
+	width:30%;
+	height:80px;
+}
+.contact i, .contact label{
+	font-size:20px;
+}
+/* last footer */
+footer{
+	background-color:#000;
+	color:#fff;
+	line-height:35px;
+	width:100%;
+	text-align:center;
+	border-top: 1px solid #2A2A2A;
+}
